@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> <!-- type .container to get div with class container-->
+        <div class="row">
+            <div class="col col-12 col-sm-6"> <!--make responsive according to screen res(12 for  entire len, 6 for half len)-->
+                <table class="table"> <!--*class="table"--> <!--type table.table for table with class table-->
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" class="form-control"></td>  <!--*class"=form-control"-->
+                    </tr>
+                    <tr>
+                        <td>Roll No</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Admin No</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-warning">SUBMIT</button></td> <!--*class="success/danger/warning/primary/secondary"-->
+                    </tr>
+                </table>
+            </div>
+            <div class="col col-12 col-sm-6">
+                <table class="table">
+                    <tr>
+                        <td>Product Name</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Manufacturer</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Distributor</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>District</td>
+                        <td><select name="district" class="form-control">
+                            <option value="Selectoption" selected>Select District</option>
+                            <option value="Kasaragod">Kasaragod</option>
+                            <option value="Kannur">Kannur</option>
+                            <option value="Kozhikode">Kozhikode</option>
+                            <option value="Wayanad">Wayanad</option>
+                            <option value="Malappuram">Malappuram</option>
+                            <option value="Thrissur">Thrissur</option>
+                            <option value="Palakkad">Palakkad</option>
+                            <option value="Ernakulam">Ernakulam</option>
+                            <option value="Idukki">Idukki</option>
+                            <option value="Alappuzha">Alappuzha</option>
+                            <option value="Kottayam">Kottayam</option>
+                            <option value="Kollam">Kollam</option>
+                            <option value="Pathanamthitta">Pathanamthitta</option>
+                            <option value="Trivandrum">Trivandrum</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="btn btn-success">Submit</td>
+                    </tr>
+                </table>            </div>
+        </div>
+    </div>
+</body>
+</html>
